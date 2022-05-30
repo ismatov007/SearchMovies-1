@@ -1,0 +1,32 @@
+.movies {
+  
+    display: flex;
+    /* flex-wrap: wrap;
+    justify-content: space-evenly;*/
+    padding-top: 17px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+
+img {
+    height: 400px;
+    width: 300px;
+}
+.content {
+    padding: 0 1%;
+}
+
+
+.offset-l2 {
+    display: flex;
+    justify-content: end;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+label:not(:last-child){
+    margin-right: 1rem;
+}
